@@ -1,0 +1,11 @@
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\Definitions.Galaga_USFX.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX/Choque2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveChoque.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Nave_Enemiga.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\ComponenteMovimiento.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\ComponenteMovimiento.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Nave_Enemiga.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveChoque.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Choque2.generated.h

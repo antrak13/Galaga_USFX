@@ -1,0 +1,82 @@
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Development\Galaga_USFX\Definitions.Galaga_USFX.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\iostream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\istream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\ostream
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\ios
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xlocnum
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cmath
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cstdio
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\iterator
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\iosfwd
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xutility
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\streambuf
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xiosbase
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\share.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\system_error
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\__msvc_system_error_abi.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cerrno
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\stdexcept
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xstring
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\__msvc_sanitizer_annotate_container.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xcall_once.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xerrc.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xlocale
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\memory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xfacet
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\xlocinfo
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\__msvc_xlocinfo_types.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\cctype
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\INCLUDE\clocale
+C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt\locale.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Galaga_USFXGameMode.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Galaga_USFXGameMode.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Galaga_USFXPawn.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/Character.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/CharacterMovementReplication.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CharacterMovementReplication.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Source\Runtime\Engine\Classes\GameFramework/RootMotionSource.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RootMotionSource.generated.h
+C:\Program Files\Epic Games\UE_4.27\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Character.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Galaga_USFXPawn.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Nave_Enemiga.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\ComponenteMovimiento.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\ComponenteMovimiento.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Nave_Enemiga.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Caza1.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveCaza.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveCaza.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Caza1.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Caza2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Caza2.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Choque1.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveChoque.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveChoque.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Choque1.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Choque2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Choque2.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Escudo1.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveEscudo.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEscudo.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Escudo1.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Escudo2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Escudo2.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Espia1.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveEspia.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveEspia.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Espia1.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Espia2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Espia2.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Transporte1.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\NaveTransporte.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\NaveTransporte.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Transporte1.generated.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Source\Galaga_USFX\Transporte2.h
+C:\Users\antra\Desktop\SIS457_antrak\Galaga_USFX\Intermediate\Build\Win64\UE4Editor\Inc\Galaga_USFX\Transporte2.generated.h
