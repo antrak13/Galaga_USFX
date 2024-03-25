@@ -82,8 +82,8 @@ void AGalaga_USFXGameMode::BeginPlay()
 			break;
 		}
 	}
-	int a;
-	int b = 0.0f;
+	int a = -500.0f;
+	int b = -300.0f;
 	int c = 0;
 	for (const TSubclassOf<ANave_Enemiga>& ClaseNave : NavesArray)
 	{
@@ -97,16 +97,18 @@ void AGalaga_USFXGameMode::BeginPlay()
 		if (ClaseNave)
 		{
 			// Spawnear la nave enemiga
-				a = 0.0f;
-				do
-				{
-					FVector SpawnLocation =  ubicacionInicial+FVector(a,b,0.0f);
+				
+			FVector SpawnLocation = ubicacionInicial + FVector(b, a, 0.0f);
 					FRotator SpawnRotation = FRotator(0.0f, 0.0f, 0.0f);
 					World->SpawnActor<ANave_Enemiga>(ClaseNave, SpawnLocation, SpawnRotation);
-					a = a + 50;
+					a = a + 200;
 					c = c + 1;
-				} while (c < 6);
-				b = b + 50;
+					if (c == 6)
+					{
+						b = b + 200;
+						c = 0;
+						a = -500.0f;
+					}
 		}
 	}
 }

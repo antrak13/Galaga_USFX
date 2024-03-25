@@ -39,20 +39,20 @@ void UComponenteMovimiento::TickComponent(float DeltaTime, ELevelTick TickType, 
 	if (Parent)
 	{
 		// Encuentra una nueva posición para que vaya el objeto
-		auto NuevaPosicion = Parent->GetActorLocation() + FVector(bMovimientoArriba ? MovimientoSig : -MovimientoSig,
+		auto NuevaPosicion = Parent->GetActorLocation() + FVector(0.0f,
 			bMovimientoArriba ? MovimientoSig : -MovimientoSig, 0.0f);
 		//Actualiza la posición del objeto
 		Parent->SetActorLocation(NuevaPosicion);
 	/*	FVector Movimiento = FVector(bMovimientoArriba ? MovimientoSig : -MovimientoSig,
 			bMovimientoArriba ? MovimientoSig : -MovimientoSig, 0.0f);*/
-		if (bMovimientoArriba && GetOwner()->GetActorLocation().X >= 1000.0f)
+	/*i(bMovimientoArriba && GetOwner()->GetActorLocation().X >= 1000.0f)
 		{
 			bMovimientoArriba = false;
 		}
 		else if (!bMovimientoArriba && GetOwner()->GetActorLocation().X <= 0.0f)
 		{
 			bMovimientoArriba = true;
-		}
+		}*/
 		if (bMovimientoArriba && GetOwner()->GetActorLocation().Y >= 1000.0f)
 		{
 			bMovimientoArriba = false;
