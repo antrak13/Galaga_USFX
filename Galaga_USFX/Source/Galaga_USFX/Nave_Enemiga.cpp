@@ -2,7 +2,7 @@
 
 
 #include "Nave_Enemiga.h"
-#include"ComponenteMovimiento.h"
+//#include"ComponenteMovimiento.h"
 
 // Sets default values
 ANave_Enemiga::ANave_Enemiga()

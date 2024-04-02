@@ -58,6 +58,10 @@ public:
 	static const FName MoveRightBinding;
 	static const FName FireForwardBinding;
 	static const FName FireRightBinding;
+	//chatgpt
+	// Static names for axis bindings
+	static const FName MoveForwardLeftBinding;
+	static const FName MoveRightLeftBinding;
 
 private:
 

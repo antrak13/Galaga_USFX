@@ -17,6 +17,9 @@ const FName AGalaga_USFXPawn::MoveForwardBinding("MoveForward");
 const FName AGalaga_USFXPawn::MoveRightBinding("MoveRight");
 const FName AGalaga_USFXPawn::FireForwardBinding("FireForward");
 const FName AGalaga_USFXPawn::FireRightBinding("FireRight");
+//chat gpt
+const FName AGalaga_USFXPawn::MoveForwardLeftBinding("MoveForwardLeft");
+const FName AGalaga_USFXPawn::MoveRightLeftBinding("MoveRightLeft");
 
 AGalaga_USFXPawn::AGalaga_USFXPawn()
 {	
@@ -61,6 +64,9 @@ void AGalaga_USFXPawn::SetupPlayerInputComponent(class UInputComponent* PlayerIn
 	PlayerInputComponent->BindAxis(MoveRightBinding);
 	PlayerInputComponent->BindAxis(FireForwardBinding);
 	PlayerInputComponent->BindAxis(FireRightBinding);
+	//chat gpt
+	PlayerInputComponent->BindAxis(MoveForwardLeftBinding);
+	PlayerInputComponent->BindAxis(MoveRightLeftBinding);
 }
 
 void AGalaga_USFXPawn::Tick(float DeltaSeconds)
@@ -97,6 +103,57 @@ void AGalaga_USFXPawn::Tick(float DeltaSeconds)
 
 	// Try and fire a shot
 	FireShot(FireDirection);
+
+	//chat gpt
+
+	float ForwardVal = GetInputAxisValue(MoveForwardLeftBinding);
+	float RightVal = GetInputAxisValue(MoveRightLeftBinding);
+
+	// Adjust movement direction for diagonal movement (up and left)
+	if (GetInputAxisValue(MoveForwardLeftBinding )>0.0f )
+	{
+		
+			ForwardVal = FMath::Max(-1.0f, ForwardVal - 1.0f); // Reduce forward movement
+			RightVal = FMath::Max(-1.0f, RightVal - 1.0f); // Reduce right movement
+		
+	}
+
+	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
+	const FVector MoveDirections = FVector(ForwardVal, -RightVal, 0.f).GetClampedToMaxSize(1.0f);
+
+	// Calculate movement
+	const FVector Movements = MoveDirections * MoveSpeed * DeltaSeconds;
+
+	// If non-zero size, move this actor
+	if (Movements.SizeSquared() > 0.0f)
+	{
+		const FRotator NewRotations = Movements.Rotation();
+		FHitResult Hits(1.f);
+		RootComponent->MoveComponent(Movements, NewRotations, true, &Hits);
+
+		if (Hits.IsValidBlockingHit())
+		{
+			const FVector Normal2Ds = Hits.Normal.GetSafeNormal2D();
+			const FVector Deflections = FVector::VectorPlaneProject(Movements, Normal2Ds) * (1.f - Hits.Time);
+			RootComponent->MoveComponent(Deflections, NewRotations, true);
+		}
+	}
+
+
+
+	/*float ForwardVal = GetInputAxisValue(MoveForwardLeftBinding);
+	float RightVal = GetInputAxisValue(MoveRightLeftBinding);
+
+	// Adjust movement direction for diagonal movement (up and left)
+	if (GetInputAxisValue(MoveForwardLeftBinding) > 0.0f)
+	{
+		ForwardVal = FMath::Max(-1.0f, ForwardVal - 1.0f); // Reduce forward movement
+		RightVal = FMath::Max(-1.0f, RightVal - 1.0f); // Reduce right movement
+	}
+
+	// Clamp max size so that (X=1, Y=1) doesn't cause faster movement in diagonal directions
+	const FVector MoveDireccions = FVector(ForwardVal, RightVal, 0.f).GetClampedToMaxSize(1.0f);
+	const FVector Movements = MoveDireccions * MoveSpeed * DeltaSeconds;*/
 }
 
 void AGalaga_USFXPawn::FireShot(FVector FireDirection)
