@@ -83,7 +83,7 @@ void AGalaga_USFXGameMode::BeginPlay()
 		}
 	}
 	int a = -500.0f;
-	int b = -300.0f;
+	int b = 0.0f;
 	int c = 0;
 	for (const TSubclassOf<ANave_Enemiga>& ClaseNave : NavesArray)
 	{

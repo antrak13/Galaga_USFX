@@ -49,7 +49,7 @@ void UComponenteMovimiento::TickComponent(float DeltaTime, ELevelTick TickType, 
 		{
 			bMovimientoDerecha = false;
 		}
-		else if (!bMovimientoDerecha && GetOwner()->GetActorLocation().X <= 0.0f)
+		else if (!bMovimientoDerecha && GetOwner()->GetActorLocation().X <= 100.0f)
 		{
 			bMovimientoDerecha= true;
 		}
@@ -57,7 +57,7 @@ void UComponenteMovimiento::TickComponent(float DeltaTime, ELevelTick TickType, 
 		{
 			bMovimientoArriba = false;
 		}
-		else if (!bMovimientoArriba && GetOwner()->GetActorLocation().Y <= 0.0f)
+		else if (!bMovimientoArriba && GetOwner()->GetActorLocation().Y <= 100.0f)
 		{
 			bMovimientoArriba = true;
 		}
